@@ -1,0 +1,21 @@
+# Informações
+nome = input("Digite seu nome: ")
+profissao = input("Digite sua profissão: ")
+adjetivo1 = input("Digite o primeiro adjetivo: ")
+adjetivo2 = input("Digite o segundo adjetivo: ")
+comida1 = input("Digite a primeira comida: ")
+comida2 = input("Digite a segunda comida: ")
+sentimento = input("Digite um sentimento: ")
+
+#Historia
+
+historia = (
+    f"{nome} começou o seu primeiro curso na Generation Brasil.\n"
+    f"Está cursando a formação em {profissao}.\n"
+    f"Achou a sua turma muito {adjetivo1} mas o instrutor era, no mínimo, {adjetivo2}."
+    f"No almoço, comeu{comida1} e {comida2}.\n"
+    f"Ao final do dia, sente-se {sentimento}, mas tem a determinação de concluir a jornada."   
+)
+#História Completa
+print()
+print(historia)
